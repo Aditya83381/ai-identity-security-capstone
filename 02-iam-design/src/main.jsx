@@ -26,7 +26,6 @@ createRoot(document.getElementById("root"))
         authorizationParams={{
           redirect_uri: window.location.origin,
         }}
-        {/* Store tokens in memory and enable refresh tokens. */}
         cacheLocation="memory"
         useRefreshTokens={true}
       >
